@@ -7,11 +7,11 @@ together into one giant super variable!
 Output should read:
 This little piggy went to market.
 """
-subject = "This little piggy"
-verb = "went"
-  preposition = "to"
-pronoun = "market'
+subject = "This little piggy "
+verb = "went "
+preposition = "to "
+pronoun = "market"
 
-result = subject + verb ++ "."
+result = subject + verb + preposition + pronoun + "."
 
 print(result)
